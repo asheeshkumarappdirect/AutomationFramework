@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20811" started-at="2017-04-06T08:27:10Z" finished-at="2017-04-06T08:27:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20811" started-at="2017-04-06T08:27:10Z" finished-at="2017-04-06T08:27:31Z">
+      <class name="com.appdirect.tests.PagesTest">
+        <test-method status="PASS" signature="HomePageTest()[pri:0, instance:com.appdirect.tests.PagesTest@51565ec2]" name="HomePageTest" duration-ms="12636" started-at="2017-04-06T13:57:10Z" finished-at="2017-04-06T13:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTest -->
+        <test-method status="PASS" signature="SignUpPageTest()[pri:0, instance:com.appdirect.tests.PagesTest@51565ec2]" name="SignUpPageTest" duration-ms="7922" started-at="2017-04-06T13:57:23Z" depends-on-methods="com.appdirect.tests.PagesTest.HomePageTest" finished-at="2017-04-06T13:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpPageTest -->
+        <test-method status="PASS" signature="EmailPage()[pri:0, instance:com.appdirect.tests.PagesTest@51565ec2]" name="EmailPage" duration-ms="238" started-at="2017-04-06T13:57:31Z" depends-on-methods="com.appdirect.tests.PagesTest.SignUpPageTest" finished-at="2017-04-06T13:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailPage -->
+      </class> <!-- com.appdirect.tests.PagesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
